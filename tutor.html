@@ -1,0 +1,103 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Lexend%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+    <title>Tutoring Classes</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-white group/design-root overflow-x-hidden"
+      style="font-family: Lexend, 'Noto Sans', sans-serif"
+    >
+      <div class="layout-container flex h-full grow flex-col">
+        <div class="gap-1 px-6 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col w-80">
+            <div
+              class="flex h-full min-h-[700px] flex-col justify-between bg-white p-4"
+            >
+              <!-- Navigation Section (same as your teammate's code) -->
+              <div class="flex flex-col gap-4">
+                <div class="flex flex-col gap-2">
+                  <!-- Home Button -->
+                  <div class="flex items-center gap-3 px-3 py-2">
+                    <a
+                      href="Main_page.html"
+                      class="flex items-center gap-3 px-3 py-2 w-full rounded-xl hover:bg-[#e0e3e4]"
+                    >
+                      <div
+                        class="text-[#111517]"
+                        data-icon="House"
+                        data-size="24px"
+                        data-weight="regular"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24px"
+                          height="24px"
+                          fill="currentColor"
+                          viewBox="0 0 256 256"
+                        >
+                          <path
+                            d="M218.83,103.77l-80-75.48a1.14,1.14,0,0,1-.11-.11,16,16,0,0,0-21.53,0l-.11.11L37.17,103.77A16,16,0,0,0,32,115.55V208a16,16,0,0,0,16,16H96a16,16,0,0,0,16-16V160h32v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V115.55A16,16,0,0,0,218.83,103.77ZM208,208H160V160a16,16,0,0,0-16-16H112a16,16,0,0,0-16,16v48H48V115.55l.11-.1L128,40l79.9,75.43.11.1Z"
+                          ></path>
+                        </svg>
+                      </div>
+                      <p
+                        class="text-[#111517] text-sm font-medium leading-normal"
+                      >
+                        Home
+                      </p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Main Content Section -->
+          <div
+            class="layout-content-container flex flex-col max-w-[960px] flex-1"
+          >
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <p
+                class="text-[#111517] tracking-light text-[32px] font-bold leading-tight min-w-72"
+              >
+                Tutoring Classes
+              </p>
+            </div>
+
+            <!-- Buttons for Creating and Joining Classes -->
+            <div class="flex flex-col gap-4 p-4">
+              <!-- Create Class Button -->
+              <div>
+                <button
+                  class="w-full bg-blue-500 text-white py-3 px-4 rounded-xl text-lg font-medium hover:bg-blue-600 transition duration-200"
+                  onclick="window.location.href='create_class.html'"
+                >
+                  Create a Class
+                </button>
+              </div>
+
+              <!-- Join Class Button -->
+              <div>
+                <button
+                  class="w-full bg-green-500 text-white py-3 px-4 rounded-xl text-lg font-medium hover:bg-green-600 transition duration-200"
+                  onclick="window.location.href='join_class.html'"
+                >
+                  Join an Existing Class
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
